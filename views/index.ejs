@@ -1,0 +1,17 @@
+<%- include('partials/header.ejs') %> 
+<div class="card-container">
+  <div class="header">
+    <h1 class="header-title">IzyFile</h1>
+    <p class="header-title">The ez file uploader</p>
+  </div>
+  <div class="content">
+    <form id="upload-form">
+      <label for="file" class="form-label">Upload a File:</label>
+      <input type="file" name="file" id="file" class="form-control">
+      <input type="submit" value="Upload File" class="btn btn-primary w-100 mt-3">
+    </form>
+    <p class="text-center mt-3" id="status-msg"></p>
+  </div>
+</div>
+<%- include('partials/footer.ejs') %>
+<script src="/js/index.js"></script>

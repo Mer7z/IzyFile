@@ -1,0 +1,23 @@
+.header-title{
+  width: max-content;
+  margin: 0 auto;
+}
+.card-container{
+  width: max-content;
+  margin: 5% auto;
+  padding: 3% 2%;
+  border: 3px solid rgba(0, 0, 0, 0.267);
+  border-radius: 5px;
+}
+#status-msg{
+  margin: 0;
+}
+#status-msg a{
+  color: inherit;
+}
+
+@media (max-width: 768px){
+  .card-container{
+    width: 100%;
+  }
+}
